@@ -148,24 +148,28 @@ This allows **end-to-end traceability** and enables **Fabric Data Activator or P
 
 ## 🗂️ Folder Structure
 
+## 📂 Project Folder Structure
+
+```text
 📁 Fabric_LH_Sales
 │
 ├── 🧩 Notebooks
-│ ├── Kaggle_to_Landing.ipynb
-│ ├── Landing_to_Bronze.ipynb
-│ ├── Bronze_to_Silver.ipynb
-│ ├── Silver_Plus_(Normalization).ipynb
-│ └── Gold_Layer.ipynb
+│   ├── Kaggle_to_Landing.ipynb
+│   ├── Landing_to_Bronze.ipynb
+│   ├── Bronze_to_Silver.ipynb
+│   ├── Silver_Plus_(Normalization).ipynb
+│   └── Gold_Layer.ipynb
 │
 ├── 🪣 Lakehouse / OneLake Paths
-│ ├── Files/Landing/
-│ ├── Tables/dbo/Bronze/
-│ ├── Tables/dbo/Silver/
-│ ├── Tables/SilverPlus/
-│ ├── Tables/Reference/
-│ └── Tables/gold/
+│   ├── Files/Landing/
+│   ├── Tables/dbo/Bronze/
+│   ├── Tables/dbo/Silver/
+│   ├── Tables/SilverPlus/
+│   ├── Tables/Reference/
+│   └── Tables/gold/
 │
-└── 🧾 dbo.pipeline_log (execution log table)
+└── 🧾 dbo.pipeline_log  (execution log table)
+
 
 
 ## 🏁 Conclusion
