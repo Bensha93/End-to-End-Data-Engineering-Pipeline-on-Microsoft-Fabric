@@ -169,6 +169,7 @@ This allows **end-to-end traceability** and enables **Fabric Data Activator or P
 │   └── Tables/gold/
 │
 └── 🧾 dbo.pipeline_log  (execution log table)
+```
 
 
 
