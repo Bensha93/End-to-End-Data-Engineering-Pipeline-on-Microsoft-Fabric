@@ -2,7 +2,7 @@
 ### *Kaggle Superstore Sales — Lakehouse Pipeline (Landing → Bronze → Silver → Silver+ → Gold)*
 
 
-![Lakehouse Pipeline](images/End to End Medallion.png)
+![Lakehouse Pipeline](https://github.com/Bensha93/End-to-End-Data-Engineering-Pipeline-on-Microsoft-Fabric/blob/7999677f71fc94048613d316711cc94d1eeda2cf/End%20to%20End%20Medallion.png)
 
 ## 📘 Project Overview
 
