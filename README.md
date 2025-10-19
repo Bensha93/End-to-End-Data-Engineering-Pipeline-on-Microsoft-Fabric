@@ -15,6 +15,7 @@ The dataset used is the **Superstore Sales Dataset** from Kaggle, containing ret
 
 ## 🧱 Architecture Overview
 
+![Lakehouse](https://github.com/Bensha93/End-to-End-Data-Engineering-Pipeline-on-Microsoft-Fabric/blob/66b29b6e689323aaa409ab81cb2c5604a70523a9/fabric_dev%20view.png)
 
 Each layer serves a specific purpose, enabling clean, maintainable, and auditable data transformation in line with **Medallion Architecture** best practices.
 
@@ -29,6 +30,8 @@ Each layer serves a specific purpose, enabling clean, maintainable, and auditabl
 ---
 
 ## ⚙️ Pipeline Flow and Notebooks
+
+![Pipeline](https://github.com/Bensha93/End-to-End-Data-Engineering-Pipeline-on-Microsoft-Fabric/blob/66b29b6e689323aaa409ab81cb2c5604a70523a9/pipeline.png)
 
 ### 1️⃣ Kaggle → Landing
 **Notebook:** `Kaggle_to_Landing.ipynb`
@@ -92,6 +95,8 @@ All tables are saved under `/Tables/SilverPlus` for consistency and reusability.
 
 Creates **Materialized Lake Views** for advanced analytics and Power BI connectivity.
 
+![Materialized Lake Views](https://github.com/Bensha93/End-to-End-Data-Engineering-Pipeline-on-Microsoft-Fabric/blob/66b29b6e689323aaa409ab81cb2c5604a70523a9/Microsof%20Fabric%20-%20lakehouse.png)
+
 #### Gold Views Created
 | View | Description |
 |------|--------------|
@@ -110,6 +115,8 @@ Each view is logged to the central `pipeline_log` table with start/end timestamp
 ## 📊 Data Logging & Monitoring
 
 A unified log table (`dbo.pipeline_log`) captures metadata for every pipeline stage:
+
+![Logging](https://github.com/Bensha93/End-to-End-Data-Engineering-Pipeline-on-Microsoft-Fabric/blob/66b29b6e689323aaa409ab81cb2c5604a70523a9/Lakehouse%20View.png)
 
 | Column | Description |
 |---------|-------------|
