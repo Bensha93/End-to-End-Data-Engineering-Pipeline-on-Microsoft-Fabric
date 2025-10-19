@@ -1,6 +1,9 @@
 # 🏗️ End-to-End Data Engineering Pipeline on Microsoft Fabric  
 ### *Kaggle Superstore Sales — Lakehouse Pipeline (Landing → Bronze → Silver → Silver+ → Gold)*
 
+
+![Lakehouse Pipeline](End to End Medallion.png)
+
 ## 📘 Project Overview
 
 This project demonstrates a **fully automated, parameter-driven data engineering pipeline** built on **Microsoft Fabric Lakehouse**.  
